@@ -7,5 +7,7 @@ This repo is based on [pstrzoda/MS43-to-E90-CanBus-Translator](https://github.co
 ## Install
 - Download [collin80/can_common](https://github.com/collin80/can_common) and place in your Arduino libraries folder
 - Download [TechOverflow/esp32_can](https://github.com/TechOverflow/esp32_can) and place in your Arduino libraries folder
+- Download [TechOverflow/SmartLeds](https://github.com/TechOverflow/SmartLeds) and place in your Arduino libraries folder
 - Download this repo and place the sketch folder into your Arduino folder
+- On line 703 check `CAN0.begin()` speed : 100000 for K-CAN (Body/Kombi) or 500000 for PT-CAN
 - Upload to the board
