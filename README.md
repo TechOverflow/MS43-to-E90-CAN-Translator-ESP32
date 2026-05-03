@@ -11,3 +11,7 @@ This repo is based on [pstrzoda/MS43-to-E90-CanBus-Translator](https://github.co
 - Download this repo and place the sketch folder into your Arduino folder
 - On line 703 check `CAN0.begin()` speed : 100000 for K-CAN (Body/Kombi) or 500000 for PT-CAN
 - Upload to the board
+
+---
+## Disclaimer
+This software is NOT for use on public roads. It is intended strictly for off-road or closed-circuit testing and educational purposes only. It has not been tested nor certified for legal use on roads. In no event shall the repository owner be liable for any direct, indirect, or consequential damage to hardware or personal safety arising out of the application of this project.
